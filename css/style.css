@@ -50,7 +50,7 @@ main {
 
 .illustration {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .img {
   display: block;
@@ -78,7 +78,6 @@ main {
   font-size: 2rem;
   color: var(--Soft-Magenta);
   padding: 1.6rem 4.8rem;
-  /* width: 40%; */
   width: 45%;
   display: flex;
   align-items: center;
