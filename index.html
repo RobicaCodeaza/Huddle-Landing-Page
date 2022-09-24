@@ -25,19 +25,60 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
   </head>
   <body>
     <main>
-      <picture class="imgBx">
+      <picture class="background">
         <source srcset="/images/bg-mobile.svg" media="(max-width:576px)" />
-        <img src="/images/bg-desktop.svg" alt="Desktop Image" class="img" />
+        <img src="/images/bg-desktop.svg" alt="Background-Image" class="imgB" />
       </picture>
+      <div class="container logo-box">
+        <img src="/images/logo.svg" alt="Images" class="logo" />
+      </div>
+      <!-- <div class="container"> -->
+      <div class="container">
+        <div class="grid">
+          <div class="illustration">
+            <img
+              src="/images/illustration-mockups.svg"
+              alt="illustration"
+              class="illustration"
+            />
+          </div>
+          <div class="text-box">
+            <h1 class="header">Build The Community Your Fans Will Love</h1>
+            <p class="text">
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience.Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <button class="btn">Register</button>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <div class="container social">
+        <a href="#" class="link"
+          ><ion-icon name="logo-facebook" class="icon"></ion-icon
+        ></a>
+        <a href="#" class="link">
+          <ion-icon name="logo-twitter" class="icon"></ion-icon
+        ></a>
+        <a href="#" class="link"
+          ><ion-icon name="logo-instagram" class="icon"></ion-icon
+        ></a>
+      </div>
     </main>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
   </body>
 </html>
