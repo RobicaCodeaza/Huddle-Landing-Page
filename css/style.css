@@ -42,17 +42,19 @@ main {
 }
 .grid {
   display: grid;
-  grid-template-columns: 55fr 45fr;
-  column-gap: 12.8rem;
+  grid-template-columns: 58fr 42fr;
+  column-gap: 8rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .illustration {
   width: 100%;
+  height: auto;
 }
 .img {
   display: block;
-  height: 100%;
-  width: 100%;
+  object-fit: cover;
 }
 .text-box {
   display: flex;
@@ -77,7 +79,10 @@ main {
   color: var(--Soft-Magenta);
   padding: 1.6rem 4.8rem;
   /* width: 40%; */
-  width: 40%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 3.2rem;
   box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0, 0.219);
